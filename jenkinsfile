@@ -5,6 +5,17 @@ stage('build'){
 steps{
 echo "Hi building project from jenkins"
 }
+
+stage('build'){
+steps{
+echo "Hi building project from jenkins"
+}
+
+stage('build'){
+steps{
+echo "Hi building project from jenkins"
+}
+
 }
 }
 }
