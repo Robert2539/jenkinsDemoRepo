@@ -8,15 +8,15 @@ echo "Hi building project from jenkins"
 }
 }
 
-stage('build'){
+stage('deploy'){
 steps{
-echo "Hi building project from jenkins"
+echo "Hi deploying project from jenkins"
 }
 }
 
-stage('build'){
+stage('test'){
 steps{
-echo "Hi building project from jenkins"
+echo "Hi testing project from jenkins"
 }
 }
 
